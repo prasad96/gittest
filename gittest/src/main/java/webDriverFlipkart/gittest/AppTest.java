@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class AppTest {
 	
 	WebDriver driver ;
-	
+	@Test
 	public void openBrowser()
 	{
 		driver = new FirefoxDriver();
